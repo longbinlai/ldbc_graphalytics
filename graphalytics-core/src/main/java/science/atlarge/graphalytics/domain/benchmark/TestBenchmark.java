@@ -85,7 +85,7 @@ public class TestBenchmark extends Benchmark {
         List<BenchmarkExp> experiments = new ArrayList<>();
 
         List<Algorithm> algorithms = Arrays.asList(
-                Algorithm.BFS, Algorithm.WCC, Algorithm.PR, Algorithm.CDLP, Algorithm.LCC, Algorithm.SSSP);
+                Algorithm.BFS, Algorithm.WCC, Algorithm.PR, Algorithm.CDLP, Algorithm.LCC, Algorithm.SSSP, Algorithm.COLOR);
 
         for (Algorithm algorithm : algorithms) {
 

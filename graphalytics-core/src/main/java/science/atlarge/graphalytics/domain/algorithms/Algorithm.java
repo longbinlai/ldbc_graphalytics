@@ -44,7 +44,8 @@ public enum Algorithm {
 	WCC("WCC", "Connected components", EmptyParametersFactory.class, EquivalenceValidationRule.class),
 
 	// Previously supported algorithms
-	FFM("FFM", "Forest fire model", ForestFireModelParameters.ForestFireModelParametersFactory.class, MatchLongValidationRule.class);
+	FFM("FFM", "Forest fire model", ForestFireModelParameters.ForestFireModelParametersFactory.class, MatchLongValidationRule.class),
+	COLOR("COLOR", "Graph coloring", EmptyParametersFactory.class, EquivalenceValidationRule.class);
 
 	private static final Logger LOG = LogManager.getLogger();
 
